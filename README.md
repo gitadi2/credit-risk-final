@@ -260,11 +260,19 @@ curl -X POST http://localhost:8000/predict \
 
 ---
 
-## Docker
+## Docker (Optional)
+
+> **Prerequisite:** Install [Docker Desktop](https://www.docker.com/products/docker-desktop/) first.
 
 ```bash
 docker build -t credit-risk-api .
 docker run -p 8000:8000 credit-risk-api
+```
+
+**Without Docker** — run the API directly:
+
+```bash
+uvicorn src.api.scoring_api:app --host 0.0.0.0 --port 8000
 ```
 
 ---
