@@ -18,6 +18,8 @@ End-to-end credit risk prediction system — from raw Lending Club data to a dep
 <a href="https://shap.readthedocs.io/" target="_blank" rel="noreferrer"><img src="assets/shap.png" alt="shap" width="40" height="40"/></a>
 <a href="https://powerbi.microsoft.com/" target="_blank" rel="noreferrer"><img src="assets/powerbi.svg" alt="powerbi" width="40" height="40"/></a>
 <a href="#algorithms--data-structures" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/TheAlgorithms/website/main/public/logo.svg" alt="dsa" width="40" height="40"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/seaborn" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="seaborn" width="40" height="40"/> </a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/chartjs" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/chartdotjs/FF6384" alt="chartjs" width="40" height="40"/> </a>
 </p>
 
 ---
@@ -56,8 +58,8 @@ End-to-end credit risk prediction system — from raw Lending Club data to a dep
 Best model selected by AUC-ROC. SMOTE applied for class imbalance. SHAP used for feature explainability.
 
 <p align="center">
-  <img src="reports/figures/roc_comparison.png" width="45%" alt="ROC Curves"/>
-  <img src="reports/figures/shap_summary.png" width="45%" alt="SHAP Feature Importance"/>
+  <img src="reports/figures/roc_comparison.png" width="75%" alt="ROC Curves"/>
+  <img src="reports/figures/shap_summary.png" width="75%" alt="SHAP Feature Importance"/>
 </p>
 
 ---
@@ -76,7 +78,7 @@ Binary search finds the optimal approval threshold balancing acceptance rate vs.
 | **Speedup** | **2.1x faster** |
 
 <p align="center">
-  <img src="reports/figures/policy_tradeoff.png" width="60%" alt="Policy Tradeoff"/>
+  <img src="reports/figures/policy_tradeoff.png" width="75%" alt="Policy Tradeoff"/>
 </p>
 
 ---
@@ -253,8 +255,17 @@ curl -X POST http://localhost:8000/predict \
 
 <p align="center">
   <img src="screenshots/executive_overview_powerbi.jpg" width="45%" alt="Executive Overview"/>
-  <img src="screenshots/model_performance_powerbi.jpg" width="45%" alt="Model Performance"/>
+  <img src="screenshots/risk_deep_dive_powerbi.jpg" width="45%" alt="Risk Deep Dive"/>
 </p>
+
+<p align="center">
+  <img src="screenshots/model_performance_powerbi.jpg" width="45%" alt="Model Performance"/>
+  <img src="screenshots/azure_blob_cointainers.jpg" width="45%" alt="Azure Blob Cointainers"/>
+    <img src="screenshots/azure_sql_database.jpg" width="45%" alt="Azure SQL Database"/>
+</p>
+
+## Interactive Dashboard
+- **Local HTML**: [INTERACTIVE DASHBOARD](https://raw.githack.com/gitadi2/credit-risk-final/master/dashboards/credit_risk_dashboard.html)
 
 ---
 
