@@ -1,4 +1,4 @@
-# Credit Risk Scoring Pipeline
+# Credit Risk Scoring API With Binary Search Policy Optimization
 
 End-to-end credit risk prediction system — from raw Lending Club data to a deployed FastAPI scoring API on Azure Cloud.
 
